@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/charachters.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <p>A not-so-fancy RPG game that you might not enjoy playing.</p>
+        <h3>Choose your Charachter !</h3>
+    </div>
+
+    <!-- Interface -->
+    <div class="interface">
+        
+        <div class="player">
+            <a href="#" onclick="GameManager.setGameStart('Homer')">
+                <img src="images/Homer.png">
+                <div class="about-player">
+                    <h4>Homer Simpson</h4>
+                    <p class="lorem">Homer Jay Simpson, formerly known as Max Power, is the father of the Simpson
+                        family. He is overweight, lazy, and ignorant, but also strongly devoted to his wife and
+                        children. He works as a low level safety inspector at the Springfield Nuclear Power Plant,
+                        although. He spends a great deal of his time at Moe's Tavern with his lifelong friends and a
+                        bartender. At home he can often be found sitting on the sofa mindlessly watching TV while
+                        snacking on food and drinking Duff beer. Homer has committed a wide range of crimes and infractions, from ticket-worthy offenses to felonies.</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="player">
+            <a href="#" onclick="GameManager.setGameStart('Marge')">
+                <img src="images/Marge.png">
+                <div class="about-player">
+                    <h4>Marge Simpson</h4>
+                    <p class="lorem">Marjorie Jacqueline "Marge" Simpson, is the happy homemaker and full-time mom of
+                        the Simpson family. With her husband Homer, she has three children: Bart, Lisa, and Maggie
+                        Simpson. Marge is the moralistic force in her family and often provides a grounding voice in the
+                        midst of her family's antics by trying to maintain order in the Simpson household. Aside from
+                        her duties at home, Marge flirted briefly with a number of careers ranging from police officer
+                        to anti-violence activist. She usually wears a long strapless green dress, red shoes, and a red pearl necklace. </p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="player"> 
+            <a href="#" onclick="GameManager.setGameStart('Bart')">
+                <img src="images/Bart.png">
+                <div class="about-player">
+                    <h4>Bart Simpson</h4>
+                    <p class="lorem">Bartholomew JoJo "Bart" Simpson, A.K.A. El Barto and Bartman, is the mischievous,
+                        rebellious, misunderstood, and "potentially dangerous" eldest child of Homer and Marge Simpson,
+                        and the brother of Lisa and Maggie Simpson. Bart's a self-proclaimed underachiever constantly in
+                        detention. Bart's interests include Krusty the Clown, skateboarding,
+                        reading comic books, watching television, playing video games, helping Lisa
+                        solve various problems, and pulling off various pranks. His pranks are often elaborately complex and can lead to unfortunate consequences.</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="player">
+            <a href="#" onclick="GameManager.setGameStart('Lisa')">
+                <img src="images/Lisa.png">
+                <div class="about-player">
+                    <h4>Lisa Simpson</h4>
+                    <p class="lorem">Lisa Marie Simpson is a charismatic 8-year-old girl, who exceeds the standard
+                        achievement level of children her age. Not to everyone's surprise, she's also the moral center
+                        of her family. In her upbringing, Lisa lacks parental involvement of Homer and Marge, which
+                        leads to hobbies like playing saxophone and guitar, riding and caring for horses, and interest
+                        in advanced studies. In school, Lisa's popularity's affected by those who view her as a geeky
+                        overachiever, which leaves her with only a few friends. She inherited her father's chubby fingers, which somewhat affects her dexterity.</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="player">
+            <a href="#" onclick="GameManager.setGameStart('Maggie')">
+                <img src="images/Maggie.png">
+                <div class="about-player">
+                    <h4>Maggie Simpson</h4>
+                    <p class="lorem">Margaret Evelyn "Maggie" Simpson is the youngest child of Marge and Homer, and
+                        sister to Bart and Lisa. She is almost always seen sucking on her pacifier and, when she walks,
+                        she trips over her clothing and falls on her face. Maggie is the least seen in the Simpson
+                        family.Maggie has both good and bad qualities. Orally fixated,she is stubborn, acquisitive, and always seems to eventually get her own way. When she doesn't
+                        get what she wants. She looks exactly like her mother did as a baby. She was introduced in "Bart to the Future". She is very adorable. She was born on a Christmas Eve </p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="player">
+            <a href="#" onclick="GameManager.setGameStart('Abrahim')">
+                <img src="images/Abrahim.png">
+                <div class="about-player">
+                    <h4>Abrahim Simpson II</h4>
+                    <p class="lorem">Abraham "Abe" Jedediah Simpson II, usually referred to as Grampa Simpson or simply
+                        Grampa, is the patriarch of the Simpson family, the father of Homer Simpson, Herbert Powell, and
+                        Abbey and the grandfather of Bart, Lisa, and Maggie Simpson. Abe is a World War II veteran later
+                        sent to the Springfield Retirement Castle by Homer. He is known for his long, rambling, and
+                        often inaccurate stories and general incompetence. Due to his apparent senility, Abe is often ignored by Homer and other members, resentful of this, or completely unaware of his being ignored.</p>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+    
+    <!-- Actions -->
+    <div class="actions"></div>
+
+    <!-- Enemy -->
+    <div class="enemy"></div>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* For the Body */
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Header */
+
+.header{
+    margin: 20px;
+}
+
+.header p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}
+
+/* Interface */
+
+.interface{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.interface .player{
+    margin: 5px 0;
+    border: 1px solid #111;
+    overflow: hidden;
+}
+
+.player:hover{
+    background-color: #ddd;
+}
+
+.interface div a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+img{
+    width: 170px;
+    height: 340px;
+    background-color: white;
+}
+
+.about-player{
+    border-left: 1px solid #111;
+    height: 340px;
+}
+
+.about-player h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 10px 10px 5px 5px;
+    color: black;
+}
+
+.about-player p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    line-height: 18px;
+    color: #111;
+}   
+
+/* Players and Enemies in Arena */
+
+#player-arena, #enemy-arena{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#player-arena img, #enemy-arena img{
+    border: 1px solid #111;
+    width: 180px;
+    height: 350px;
+}
+
+#player-arena #player-stats, #enemy-arena #enemy-stats{
+    width: 210px;
+    padding: 10px;
+    border-top: 1px solid #111;
+    border-right: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+
+#player-stats h4, #enemy-stats h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+#player-stats p, #enemy-stats p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 0;
+    line-height: 14px;
+    color: #111;
+}
+
+/* Actions */
+
+.actions{
+    text-align: center;
+}
+
+button{
+    outline: none;
+    padding: 4px;
+    font-size: 15px;
+    margin: 10px;
+    background-color:rgb(210, 75, 70);
+    border: 0.8px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 550px){
+
+    .interface{
+        align-items: center;
+    }
+
+    .player{
+        width: 470px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
